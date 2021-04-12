@@ -5,6 +5,9 @@ public:
     int dp[610][110][110];
     int solve(int n1, int m, int n, int i, int x, int y)
     {
+
+      
+
         if (i >= n1)
             return 0;
 
